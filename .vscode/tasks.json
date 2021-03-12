@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Bundle Install",
+            "command": "bundle install",
+            "args": [],
+            "type": "shell",
+            "problemMatcher": []
+        },
+        {
+            "label": "Start jekyll (drafts, future) for github_pages_template",
+            "command": "bundle",
+            "args": [
+                "exec",
+                "jekyll",
+                "serve",
+                "-w",
+                "-D",
+                "--future"
+            ],
+            "type": "shell",
+            "problemMatcher": []
+        },
+        {
+            "label": "Start jekyll for github_pages_template",
+            "command": "bundle",
+            "args": [
+                "exec",
+                "jekyll",
+                "serve",
+                "-w"
+            ],
+            "type": "shell",
+            "problemMatcher": []
+        }
+    ]
+}
