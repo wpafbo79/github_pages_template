@@ -1,0 +1,11 @@
+---
+layout: enhanced_architect
+---
+<div>Post: {{ page.title }}</div>
+<div>Written by: {{ page.author }}</div>
+<div><small>On: {{ page.date }}</small></div>
+{% if page.updated %}
+    <div><small>Updated: {{ page.updated }}</small></div>
+{% endif %}
+
+{{ content }}
