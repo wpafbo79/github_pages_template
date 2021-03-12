@@ -1,0 +1,3 @@
+[submodule "external/jekyll-toc"]
+	path = external/jekyll-toc
+	url = https://github.com/allejo/jekyll-toc.git
