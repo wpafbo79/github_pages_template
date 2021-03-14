@@ -9,27 +9,27 @@
             "problemMatcher": []
         },
         {
-            "label": "Start jekyll (drafts, future) for github_pages_template",
+            "label": "Start jekyll (drafts, future) for dart_dungeon",
             "command": "bundle",
             "args": [
                 "exec",
                 "jekyll",
                 "serve",
-                "-w",
-                "-D",
+                "--watch",
+                "--drafts",
                 "--future"
             ],
             "type": "shell",
             "problemMatcher": []
         },
         {
-            "label": "Start jekyll for github_pages_template",
+            "label": "Start jekyll for dart_dungeon",
             "command": "bundle",
             "args": [
                 "exec",
                 "jekyll",
                 "serve",
-                "-w"
+                "--watch"
             ],
             "type": "shell",
             "problemMatcher": []
